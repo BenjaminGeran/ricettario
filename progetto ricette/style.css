@@ -1,0 +1,23 @@
+.header {
+    padding: 60px;
+    text-align: center;
+    background-image: url("immagineheader.jpg"); 
+    color: white;
+    font-size: 30px;
+    text-shadow: 0 0 35px #000;
+  }
+  #container {
+    display: flex;             
+    flex-direction: row;           
+    flex-wrap: nowrap;             
+    justify-content: center; 
+    background-color: lightyellow;
+  }
+  #container > div {
+    width: 200px;
+    height: 100px;
+    align-content: center;
+  }
+  #ricette-trovate {
+    text-align: center;
+  }
